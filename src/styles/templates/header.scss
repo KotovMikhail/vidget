@@ -1,0 +1,28 @@
+.header {
+  position: relative;
+
+  padding-top: 16px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: 1px solid $light-grey;
+
+  font-family: $rotonda-bold;
+  font-size: 16px;
+  line-height: 21px;
+
+  background-color: $blue;
+
+  &__title {
+    @include reset;
+    color: $white;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+  }
+
+  &__number {
+    color: $yellow;
+  }
+}

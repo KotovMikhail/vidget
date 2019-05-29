@@ -1,0 +1,19 @@
+// Default
+@import "global/_fonts";      // шрифты
+@import "global/_variables";  // переменные
+@import "global/_mixins";     // миксины
+@import "global/_global";     // глобальные стили
+
+// Templates
+@import "templates/page-layout";
+@import "templates/header";
+@import "templates/btn-close";
+@import "templates/main";
+@import "templates/offer";
+@import "templates/social";
+@import "templates/form";
+@import "templates/footer";
+@import "templates/company";
+
+
+

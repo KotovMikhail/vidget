@@ -1,0 +1,66 @@
+.company {
+  &__link {
+    box-sizing: border-box;
+    margin-bottom: 23px;
+
+    padding-top: 11px;
+    padding-right: 18px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+
+    display: block;
+    width: 100%;
+
+    border: 1px dashed $blue;
+    border-radius: 10px;
+
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-family: inherit;
+    font-size: 14px;
+
+    color: $blue;
+    background-color: $white;
+    cursor: pointer;
+  }
+
+  &__rules {
+    margin: 0 auto;
+    margin-bottom: 18px;
+    padding-right: 16px;
+
+    width: 107px;
+    display: block;
+
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 8px;
+      right: 1px;
+      width: 7px;
+      height: 7px;
+      border-left: transparent;
+      border-bottom: transparent;
+      border-top: 1px solid $yellow;
+      border-right: 1px solid $yellow;
+      transform: rotate(-45deg);
+    }
+  }
+
+  &__agreement {
+    display: block;
+
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-family: $rotonda-reg;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+}

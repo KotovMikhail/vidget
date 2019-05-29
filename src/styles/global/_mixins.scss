@@ -1,0 +1,35 @@
+// Media
+
+@mixin desktop-width {
+  @media only screen and (min-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin tablet-width {
+  @media only screen and (min-width: $tablet) {
+    @content;
+  }
+}
+
+
+/* Остальные миксины */
+
+@mixin list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin reset {
+  padding: 0;
+  margin: 0;
+}
+
+@mixin button-reset {
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

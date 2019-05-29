@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "RotondaC-regular";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("../fonts/RotondaC-regular.woff2") format("woff2"),
+    url("../fonts/RotondaC-regular.woff") format("woff"),
+    url("../fonts/RotondaC-regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RotondaC-bold";
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url("../fonts/RotondaC-bold.woff2") format("woff2"),
+    url("../fonts/RotondaC-bold.woff") format("woff"),
+    url("../fonts/RotondaC-bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Myriad-Pro-regular";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("../fonts/Myriad-Pro-regular.woff2") format("woff2"),
+    url("../fonts/Myriad-Pro-regular.woff") format("woff"),
+    url("../fonts/Myriad-Pro-regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ALS-Schlange-black";
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url("../fonts/ALS-Schlange-black.woff2") format("woff2"),
+    url("../fonts/ALS-Schlange-black.woff") format("woff"),
+    url("../fonts/ALS-Schlange-black.ttf") format("truetype");
+  font-display: swap;
+}
+

@@ -1,0 +1,45 @@
+.offer {
+  position: relative;
+  margin-bottom: 20px;
+
+  &__client {
+    @include reset;
+    margin-bottom: 19px;
+    font-family: $schlange-black;
+    font-size: 18px;
+    line-height: 18px;
+    color: $blue;
+    letter-spacing: 0.7px;
+  }
+
+  &__discount {
+    position: absolute;
+    top: -14px;
+    right: -17px;
+
+    padding-top: 8px;
+    padding-right: 21px;
+    padding-bottom: 7px;
+    padding-left: 23px;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    text-align: center;
+    font-family: $schlange-black;
+    font-size: 25px;
+    line-height: 28px;
+
+    color: $yellow;
+    background-color: $blue;
+  }
+
+  &__text {
+    @include reset;
+    padding-right: 10px;
+
+    color: $brown;
+    font-family: $myriad-reg;
+    letter-spacing: 0.6px;
+  }
+}
